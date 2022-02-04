@@ -39,7 +39,7 @@ function Header() {
       {/* <!-- ======= Hero Section ======= --> */}
       <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
         <div class="hero-container" data-aos="fade-in">
-          <h1>Naomi Torres idk what to write</h1>
+          <h1>Naomi Torres</h1>
           {/* <p>I'm <span class="typed" data-typed-items="Developer, Freelancer, Student"></span></p> */}
           <p className="line-1 anim-typewriter">and this is my portfolio...</p>
         </div>
