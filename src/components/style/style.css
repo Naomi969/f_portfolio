@@ -1,4 +1,4 @@
-body {
+ body {
     font-family: "Open Sans", sans-serif;
     color: #272829;
   }
@@ -56,11 +56,84 @@ body {
     opacity: 1;
   }
   
+  /* PORTFOLIO */
+
+
+.portfolio .portfolio-item {
+  margin-bottom: 30px;
+}
+
+.portfolio .portfolio-wrap {
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.portfolio .portfolio-wrap::before {
+  content: "";
+  background: rgba(44, 73, 100, 0.6);
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  top: 30px;
+  bottom: 30px;
+  transition: all ease-in-out 0.3s;
+  z-index: 2;
+  opacity: 0;
+}
+
+.portfolio .portfolio-wrap .portfolio-info {
+  opacity: 0;
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 3;
+  transition: all ease-in-out 0.3s;
+}
+
+.portfolio .portfolio-wrap .portfolio-info h4 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.portfolio .portfolio-wrap .portfolio-info p {
+  color: #ffffff;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.portfolio .portfolio-wrap:hover::before {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
+
+}
+
+.portfolio .portfolio-wrap:hover .portfolio-info {
+  opacity: 1;
+  top: calc(50% - 48px);
+}
+
+.portfolio a {
+color:white;
+font-size: 24px;
+padding: 10px 20px;
+}
+
+.portfolio a:hover {
+  color: #d43076;
+}
   /*--------------------------------------------------------------
   # Header
   --------------------------------------------------------------*/
   .image{
-    background: url("../img/IMG_6370\ copy.jpg");
+    background: url("../../img/IMG_6370\ copy.jpg");
   }
 
   .imga{
@@ -255,7 +328,7 @@ body {
   #hero {
     width: 100%;
     height: 100vh;
-    background: url("../img/1162652.jpeg") top center;
+    background: url("../../img/1162652.jpeg") top center;
     background-size: cover;
   }
   

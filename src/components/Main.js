@@ -1,5 +1,5 @@
 import React from 'react';
-import '../style/style.css';
+import './style/style.css';
 // import { skillsBar } from '../info';
 // import Skills from './pContainer';
 

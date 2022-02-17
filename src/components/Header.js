@@ -1,5 +1,5 @@
 import React from 'react';
-import '../style/style.css';
+import './style/style.css';
 import img from '../img/IMG_6370 copy.jpg'
 
 function Header() {
